@@ -11,7 +11,7 @@ When we want to open an account in a bank, we have to fill in forms, give the pr
 
 Private keys are randomly generated hexadecimal strings of size 32 bits.Following is an example of a private key - 
 
-><div align="center">L4mWWJeTCGcWTB4KQcPi6rdBCGVGsgbhDVRkzphraGYGgBJxtgPv</div>
+<div align="center">L4mWWJeTCGcWTB4KQcPi6rdBCGVGsgbhDVRkzphraGYGgBJxtgPv</div>
 
 Of course now that I have revealed this private key, it is of no use and I should not use it’s corresponding address to store or transact bitcoins.
 
@@ -22,10 +22,11 @@ I know we used a lot of terms there, so here is the summary -
 * How can we get a Public Key from a private key? - Elliptic Curve Cryptography
 * How can we get our bitcoin address from a Public Key? Simple, the hash of your public key is your bitcoin address.
 
----
-Image comes here
+<div style="margin:40px;height:20px;"></div>
 
----
+![walking]({{ site.baseurl }}/assets/images/digital-sign1.jpg)
+
+<div style="margin:40px;height:20px;"></div>
 
 If you want to understand the math behind generating a Public Key from a private key, you can read more about Elliptic Curve Cryptography, and you can learn more about hashing here. 
 

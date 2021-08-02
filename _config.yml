@@ -2,12 +2,12 @@
 name: "BlockchainIsEasy"
 title: "Blockchain Is Easy"
 description: "Revolutionary concepts, simple explanation"
-logo: 'assets/images/logo.png'
-favicon: 'assets/images/logo.png'
+logo: 'assets/images/LandingScreenIcon4x.png'
+favicon: 'assets/images/BlockchainIsEasy_Icon.png'
 baseurl: /mediumish-theme-jekyll
-google_analytics: 'UA-46278016-1'
-disqus: 'demowebsite'
-mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+# google_analytics: 'UA-46278016-1'
+# disqus: 'demowebsite'
+# mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
 include: ["_pages"]
 permalink: /:title/
 
@@ -20,7 +20,7 @@ authors:
     email: psurya.ayyagari@gmail.com
     web: www.google.com
     twitter: www.google.com
-    description: "A bitch"
+    description: ""
   airesh:
     name: Airesh
     display_name: Airesh Bhat    
@@ -29,7 +29,7 @@ authors:
     email: nelliairesh@gmail.com
     web: www.google.com
     twitter: www.google.com
-    description: "This is the author box. Write a short description of the author here. You are currently previewing Mediumish demo, a Jekyll template compatible with Github pages."
+    description: ""
 
 # Plugins
 plugins:
