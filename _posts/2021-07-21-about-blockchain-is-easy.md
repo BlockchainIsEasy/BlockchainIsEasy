@@ -11,15 +11,15 @@ This blog is for all those people out there who want to understand blockchain bu
 
 ---
 
-To get your in the right mind set and excited for blockchain -
+To get your in the right mind set and excited for blockchain:
 
-* <b>Banks and Blockchains</b>  - Introduction 
+* <b>Banks and Blockchains</b> - Introduction 
 
-Before we can understand blockchain, there are a few important concepts which are the building blocks of blockchain technology which we want you to understand - 
+Before we can understand blockchain, there are a few important concepts which are the building blocks of blockchain technology which we want you to understand:
 
 * <b>Digital Signatures</b>
 * <b>Proof of work</b> 
 * <b>Distributed Ledger</b>
 
 And then, putting it all together,
-* <b>The BitCoin BlockChain</b>
+* <b>The Bitcoin BlockChain</b>

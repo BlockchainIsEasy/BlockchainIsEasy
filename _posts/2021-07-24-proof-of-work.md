@@ -2,7 +2,7 @@
 layout: post
 title:  "Proof Of Work"
 author: surya
-categories: [ Introduction ]
+categories: [ Basics ]
 image: assets/images/article-3.jpg
 ---
 
