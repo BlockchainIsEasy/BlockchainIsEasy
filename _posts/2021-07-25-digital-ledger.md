@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Digital Ledger"
-author: surya
+author: surya 
 categories: [ Basics ]
 image: assets/images/article-4.jpg
 ---
@@ -32,10 +32,9 @@ The second type of participants, the Miners. They are responsible in <u><b>minin
 3. Combine the above two along with <u>count</u> and hash the result.
 
 As and when the hash turns out to have the required number of zeroes in the beginning, that entire information is stored in the next block. This block is appended and now becomes the latest block. This miner now tells every other miner,
-> I have successfully <u>mined</u> all the transactions so far and have created the next block. Please stop trying to mine this block, add this block to your ledger and move on to the next!
-Everyone else on the network is notified of this as well and add the next block to their chain. This is what makes the ledger on the blockchain. A copy of each block with everyone.
+This miner now tells every other miner, <u><b>I have successfully mined all the transactions so far and have created the next block. Please stop trying to mine this block, add this block to your ledger and move on to the next!</b></u> Everyone else on the network is notified of this as well and add the next block to their chain. This is what makes the ledger on the blockchain. A copy of each block with everyone.
 
-Lastly, one might ask, what if two miners simultaneously mine a block. This is a perfectly valid situation. In such a scenario, the longest chain is considered as the right chain. Let's take the following scenario. Block A and Block B are mined at the same time after the latest block. Some participants in the network find block A and start mining the next block on top of block A and similarly for block B. Now a miner with block A in its chain mines another block before any other miner with block B in their chain. These other miners notice that this chain is longer. They now <u>orphan</u> block B and use chain with block A as their main chain.
+Lastly, one might ask, what if two miners simultaneously mine a block. This is a perfectly valid situation. In such a scenario, the longest chain is considered as the right chain. Let's take the following scenario. Block A and Block B are mined at the same time after the latest block. Some participants in the network find block A and start mining the next block on top of block A and similarly for block B. Now a miner with block A in its chain mines another block before any other miner with block B in their chain, making the chain with block A the longest chain. These other miners notice that this chain is longer and they <u>orphan</u> block B and use chain with block A as their main chain.
 
 ![Distributed-Ledger3]({{ site.baseurl }}/assets/images/Distributed-Ledger3.png)
 
