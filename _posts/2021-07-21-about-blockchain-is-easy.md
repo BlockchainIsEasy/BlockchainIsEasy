@@ -13,13 +13,13 @@ This blog is for all those people out there who want to understand blockchain bu
 
 To get your in the right mind set and excited for blockchain:
 
-* <b>Banks and Blockchains</b> - Introduction 
+* [Banks and Blockchains](https://blockchainiseasy.github.io/banks-and-blockchains/) - Introduction 
 
 Before we can understand blockchain, there are a few important concepts which are the building blocks of blockchain technology which we want you to understand:
 
-* <b>Digital Signatures</b>
-* <b>Proof of work</b> 
-* <b>Distributed Ledger</b>
+* [Digital Signatures](https://blockchainiseasy.github.io/digital-signature/)
+* [Proof of work](https://blockchainiseasy.github.io/proof-of-work/)
+* [Distributed Ledger](https://blockchainiseasy.github.io/digital-ledger/)
 
 And then, putting it all together,
-* <b>The Bitcoin BlockChain</b>
+* [The Bitcoin BlockChain](https://blockchainiseasy.github.io/the-bitcoin-blockchain/)
