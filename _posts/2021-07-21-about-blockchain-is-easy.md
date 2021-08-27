@@ -11,7 +11,7 @@ This blog is for all those people out there who want to understand blockchain bu
 
 ---
 
-To get your in the right mind set and excited for blockchain:
+To get you in the right mind set and excited for blockchain:
 
 * [Banks and Blockchains](https://blockchainiseasy.github.io/banks-and-blockchains/) - Introduction 
 
