@@ -23,3 +23,6 @@ Before we can understand blockchain, there are a few important concepts which ar
 
 And then, putting it all together,
 * [The Bitcoin BlockChain](https://blockchainiseasy.github.io/the-bitcoin-blockchain/)
+
+Liked what you read so far? To dive deeper into the bitcoin blockchian - 
+* [Bitcoin Transactions](https://blockchainiseasy.github.io/bitcoin-transactions/)
