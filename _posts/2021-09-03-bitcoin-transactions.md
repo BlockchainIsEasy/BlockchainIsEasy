@@ -39,6 +39,14 @@ Now consider Transaction B, in the input, Alice mentions the Transaction ID of t
 
 ![transactions-1]({{ site.baseurl }}/assets/images/transactions-1.png)
 
-The following analogy might help you visualise this better - 
+The following analogy might help you visualise this better:
 
 Consider every input as a box from which you take money and output as a box into which you have to put money. Your private key is the key which will lock the input box and unlock the output box. One the box is opened, all its contents HAVE to be taken out. Whoever is sending the money will lock the box and say <u>Whoever has the private key to the public key i am mentioning here can open the box</u>. In transaction A, Charlie locks the box which can be opened only using Alice’s Private KEY. Now in transaction B, after opening charlie’s box, alice will move its contents (bitcoins) to two new boxes - One box can be opened only by Bob and another box can be opened only by Alice.
+
+Below is the diagram of how transaction work in Bitcoin:
+
+![transactions-2]({{ site.baseurl }}/assets/images/transactions-2.png)
+
+Remember, the transaction fee is calculated as the difference between the total outputs and total inputs in the transaction, it does not have to be explicitly mentioned in the transaction.
+
+What we spoke about in the article was just a brief overview of how transactions work. There is a lot of flexibility in the kinds of transactions we can do using bitcoin and there are few more elements other than the input and the output involved in a transaction. If you are interested in reading more and want to understand bitcoin transactions in-depth (about the script which has to be attached to the output, etc.) - check out this [article](https://developer.bitcoin.org/devguide/transactions.html).
