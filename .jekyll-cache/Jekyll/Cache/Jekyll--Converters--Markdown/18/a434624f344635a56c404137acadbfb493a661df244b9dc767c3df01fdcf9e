@@ -1,4 +1,4 @@
-I"A<p>Now in all our articles, we represented transactions with <u>Alice paid Bob 10,000 bucks</u>. It helped us understand the concepts, but now it is time to think about how transactions are stored in the Bitcoin Blockchain ledger. Say Alice has to pay Bob <b>one</b> bitcoin. First of all, Alice has to have <b>one</b> bitcoin associated with her bitcoin address. Now how does the blockchain check if Alice has that much money in her address? It is much simpler than you might think. To spend money, I need to possess money. And in order to possess money, someone has to give some money to me. I can only spend money someone has given me (or I have <b>mined</b>, in the case of cryptocurrency), I cannot create money from thin air. The same concept is used in Bitcoin Blockchain.</p>
+I"�<p>Now in all our articles, we represented transactions with <u>Alice paid Bob 10,000 bucks</u>. It helped us understand the concepts, but now it is time to think about how transactions are stored in the Bitcoin Blockchain ledger. Say Alice has to pay Bob <b>one</b> bitcoin. First of all, Alice has to have <b>one</b> bitcoin associated with her bitcoin address. Now how does the blockchain check if Alice has that much money in her address? It is much simpler than you might think. To spend money, I need to possess money. And in order to possess money, someone has to give some money to me. I can only spend money someone has given me (or I have <b>mined</b>, in the case of cryptocurrency), I cannot create money from thin air. The same concept is used in Bitcoin Blockchain.</p>
 
 <p>All transactions in blockchain have two main parts - Input and Output. Each transaction in the Bitcoin BlockChain is identified using a <u>Transaction ID</u>. Input refers to (points to) a transaction that paid you money in the past and output specifies the addresses to which we are sending money. Say some time ago, Alice had received <b>two</b> bitcoins from Charlie. Today Alice wants to pay Bob <b>one</b> bitcoin. She has to create a transaction on the blockchain.</p>
 
@@ -33,7 +33,15 @@
 
 <p><img src="https://blockchainiseasy.github.io/assets/images/transactions-1.png" alt="transactions-1" /></p>
 
-<p>The following analogy might help you visualise this better -</p>
+<p>The following analogy might help you visualise this better:</p>
 
-<p>Consider every input as a box from which you take money and output as a box into which you have to put money. Your private key is the key which will lock the input box and unlock the output box. One the box is opened, all its contents HAVE to be taken out. Whoever is sending the money will lock the box and say “Whoever has the private key to the public key i am mentioning here can open the box”. In transaction A, Charlie locks the box which can be opened only using Alice’s Private KEY. Now in transaction B, after opening charlie’s box, alice will move its contents (bitcoins) to two new boxes - One box can be opened only by Bob and another box can be opened only by Alice.</p>
+<p>Consider every input as a box from which you take money and output as a box into which you have to put money. Your private key is the key which will lock the input box and unlock the output box. One the box is opened, all its contents HAVE to be taken out. Whoever is sending the money will lock the box and say <u>Whoever has the private key to the public key i am mentioning here can open the box</u>. In transaction A, Charlie locks the box which can be opened only using Alice’s Private KEY. Now in transaction B, after opening charlie’s box, alice will move its contents (bitcoins) to two new boxes - One box can be opened only by Bob and another box can be opened only by Alice.</p>
+
+<p>Below is the diagram of how transaction work in Bitcoin:</p>
+
+<p><img src="https://blockchainiseasy.github.io/assets/images/transactions-2.png" alt="transactions-2" /></p>
+
+<p>Remember, the transaction fee is calculated as the difference between the total outputs and total inputs in the transaction, it does not have to be explicitly mentioned in the transaction.</p>
+
+<p>What we spoke about in the article was just a brief overview of how transactions work. There is a lot of flexibility in the kinds of transactions we can do using bitcoin and there are few more elements other than the input and the output involved in a transaction. If you are interested in reading more and want to understand bitcoin transactions in-depth (about the script which has to be attached to the output, etc.) - check out this <a href="https://developer.bitcoin.org/devguide/transactions.html">article</a>.</p>
 :ET

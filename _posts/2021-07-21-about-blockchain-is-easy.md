@@ -26,3 +26,4 @@ And then, putting it all together,
 
 Liked what you read so far? To dive deeper into the bitcoin blockchian - 
 * [Bitcoin Transactions](https://blockchainiseasy.github.io/bitcoin-transactions/)
+* [Blocks](https://blockchainiseasy.github.io/blocks/)
