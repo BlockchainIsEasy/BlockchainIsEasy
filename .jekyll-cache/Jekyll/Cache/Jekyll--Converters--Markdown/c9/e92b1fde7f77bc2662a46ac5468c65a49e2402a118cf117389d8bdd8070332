@@ -1,4 +1,4 @@
-I"�<p>Throughout our series so far, we have represented the blocks in blockchain as a bunch of transactions like <u>Alice paid Bob 5000 bucks</u>. It’s time we take a deeper look at how blocks are organized in the blockchain.</p>
+I"�<p>Throughout our series so far, we have represented the blocks in blockchain as a bunch of transactions like <u>Alice paid Bob 5000 bucks</u>. It’s time we take a deeper look at how blocks are organized in the blockchain.</p>
 
 <p>You have to be familiar with the data structure - Merkel Trees, to be able to completely understand this article. Merkel Trees are used to summarise the transactions in a block to reduce the time taken to verify whether a transaction belongs to a block or not. We will not be explaining Merkel trees in this article and if you don’t know Merkel trees you can just ignore the couple of instances where they come up in this article and still have a decent understanding of how a block is structured in the blockchain. There are several videos and articles about Merkel Trees on youtube - too many to choose from, so I will just attach the Wikipedia link <a href="https://en.wikipedia.org/wiki/Merkle_tree">here</a>.</p>
 
@@ -36,7 +36,7 @@
   <li>To connect Blocks - Each Block header has ‘Previous Block Hash’ which is the Block Hash of its parent block and subsequent child block which are created from the current block will have the Block Hash of the current block in its header.</li>
 </ul>
 
-<div align="center">![blocks-1](https://blockchainiseasy.github.io/assets/images/blocks_1.png)</div>
+<p><img src="https://blockchainiseasy.github.io/assets/images/Blocks_1.png" alt="blocks-1" /></p>
 
 <p>So this is how it works:</p>
 
@@ -44,5 +44,5 @@
 Notice how we never added the Block’s Hash to its header?
 This is because, once the new block is published by a miner, all the nodes (users, say) in the blockchain will look at the header, hash it and generate the Block Hash. If the Block Hash has valid proof of work, the block is considered legitimate and the nodes add this block to their existing chain and broadcast the block. And thus the new block propagates in the chain.</p>
 
-<p><img src="https://blockchainiseasy.github.io/assets/images/blocks_2.png" alt="blocks-2" /></p>
+<p><img src="https://blockchainiseasy.github.io/assets/images/Blocks_2.png" alt="blocks-2" /></p>
 :ET
