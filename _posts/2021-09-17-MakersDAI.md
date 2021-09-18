@@ -68,7 +68,9 @@ Few noteworthy features of Maker’s DAI -
 2. Everyone is charged the same Stability and Liquidity Fee
 3. Maker does not lend more than the collateral it has - making it less risky.
 
-Now there is a lot more to DAI than what I explained in this article. People who are already familiar with DAI might complain that I never mention MKR token or explain how auctions work, etc, but that was not the intention of this article. I tried to simplify things so that it will be easier for you to form a mental model of how the Protocol Works. If you want to know more about Maker DAO and DAI check out the following links!
+Now there is a lot more to DAI than what I explained in this article. People who are already familiar with DAI might complain that I never mention MKR token or explain how auctions work, etc, but that was not the intention of this article. I tried to simplify things so that it will be easier for you to form a mental model of how the Protocol Works. 
+
+If you want to know more about Maker DAO and DAI check out the following links! (Please note that DAO is Decentralised Autonomous Organisation and DAI is the name of the stable coin in this context)
 
 * [MakerDAO docs](https://docs.makerdao.com/)
 * [Awesome MakerDAO](https://awesome.makerdao.com/)
