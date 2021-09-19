@@ -16,12 +16,12 @@ Private keys are randomly generated, hexadecimal strings of size 32 bits. Follow
 
 Of course, now that I have revealed this private key, it is of no use. I should not use its corresponding address to store or transact bitcoins.
 
-Now using this private key that we generated, we can create something called a <u>Public Key</u>. Cryptography works such that, even though we can generate <u>Public Key</u> from a Private Key, we cannot figure out the Private Key from the <u>Public Key</u>. As the name <u>Public Key</u> infers, it can be used by anyone. In the case of Bitcoin, the hash of your Private Key is your Bitcoin address. 
+Now using this private key that we generated, we can create something called a <u>Public Key</u>. Cryptography works such that, even though we can generate <u>Public Key</u> from a Private Key, we cannot figure out the Private Key from the <u>Public Key</u>. As the name <u>Public Key</u> infers, it can be used by anyone. In the case of Bitcoin, the hash of your Public Key is your Bitcoin address. 
 
 I know we used a lot of terms there, so here is the summary - 
 * How can we generate a Private Key? - Randomly, literally any random 32 bit hexadecimal string
 * How can we get a Public Key from a Private Key? - Elliptic Curve Cryptography
-* How can we get our Bitcoin address from a Public Key? Simple, the hash of your public key is your bitcoin address.
+* How can we get our Bitcoin address from a Public Key? Simple, the hash of your Public Key is your bitcoin address.
 
 <div style="margin:40px;height:20px;"></div>
 
