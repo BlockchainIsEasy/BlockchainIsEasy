@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Maker's DAI"
+title:  "Getting Started with Ethereum"
 author: surya
 categories: [ Advanced ]
 image: assets/images/intro-to-eth.jpeg
