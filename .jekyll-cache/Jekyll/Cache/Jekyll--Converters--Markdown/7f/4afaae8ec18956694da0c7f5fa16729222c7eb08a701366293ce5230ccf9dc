@@ -1,4 +1,4 @@
-I"Û<p>Sign for a check, pin for credit and debit cards, OTP for internet banking - how does it work in blockchain? Well, it turns out there is something called the <u>Digital Signature</u> for blockchain which is arguably safer than OTPs or physical signatures or pins. But before we get into <u>Digital Signatures</u> we need to talk about how we identify someone who wants to transact on blockchain - in other words, if blockchain is a global bank, how do we create an account in our bank and send and receive money?</p>
+I"Ú<p>Sign for a check, pin for credit and debit cards, OTP for internet banking - how does it work in blockchain? Well, it turns out there is something called the <u>Digital Signature</u> for blockchain which is arguably safer than OTPs or physical signatures or pins. But before we get into <u>Digital Signatures</u> we need to talk about how we identify someone who wants to transact on blockchain - in other words, if blockchain is a global bank, how do we create an account in our bank and send and receive money?</p>
 
 <p>When we want to open an account in a bank, we have to fill in forms, give proof for our address, citizenship, and whatnot. Finally, after a week or two of tedious work, we get our bank account created. When it comes to blockchain, it turns out, creating an account is as easy as typing a few commands. Anyone with a computer can generate something called the <u>Private Key</u>. When it comes to a bank, you create an account and then attach a password to it, but in blockchain, we generate the password first. The private key is our password, and whoever has the private key can send or receive money from our account. Hence we need to be careful not to share our private key with anyone.</p>
 
@@ -11,13 +11,13 @@
 
 <p>Of course, now that I have revealed this private key, it is of no use. I should not use its corresponding address to store or transact bitcoins.</p>
 
-<p>Now using this private key that we generated, we can create something called a <u>Public Key</u>. Cryptography works such that, even though we can generate <u>Public Key</u> from a Private Key, we cannot figure out the Private Key from the <u>Public Key</u>. As the name <u>Public Key</u> infers, it can be used by anyone. In the case of Bitcoin, the hash of your Private Key is your Bitcoin address.</p>
+<p>Now using this private key that we generated, we can create something called a <u>Public Key</u>. Cryptography works such that, even though we can generate <u>Public Key</u> from a Private Key, we cannot figure out the Private Key from the <u>Public Key</u>. As the name <u>Public Key</u> infers, it can be used by anyone. In the case of Bitcoin, the hash of your Public Key is your Bitcoin address.</p>
 
 <p>I know we used a lot of terms there, so here is the summary -</p>
 <ul>
   <li>How can we generate a Private Key? - Randomly, literally any random 32 bit hexadecimal string</li>
   <li>How can we get a Public Key from a Private Key? - Elliptic Curve Cryptography</li>
-  <li>How can we get our Bitcoin address from a Public Key? Simple, the hash of your public key is your bitcoin address.</li>
+  <li>How can we get our Bitcoin address from a Public Key? Simple, the hash of your Public Key is your bitcoin address.</li>
 </ul>
 
 <div style="margin:40px;height:20px;"></div>

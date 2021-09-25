@@ -1,4 +1,4 @@
-I"R<p>Bitcoin and subsequent cryptocurrencies were created to decentralize ‘money’ and to be used in day-to-day lives to purchase goods. But most of the cryptocurrencies today are used exclusively for speculation and investment because of the volatility in their prices. Now imagine the value of the US Dollar changed as much as bitcoin - the cost of a coffee is $1 now and $2 five seconds later! The world would plunge into chaos.</p>
+I"�<p>Bitcoin and subsequent cryptocurrencies were created to decentralize ‘money’ and to be used in day-to-day lives to purchase goods. But most of the cryptocurrencies today are used exclusively for speculation and investment because of the volatility in their prices. Now imagine the value of the US Dollar changed as much as bitcoin - the cost of a coffee is $1 now and $2 five seconds later! The world would plunge into chaos.</p>
 
 <p>The reason any country’s currency has value is that it is considered a ‘legal tender’ by the government of that country. For example, there is a legal obligation for every citizen of the US to attach the same value to $1 and anyone who does not do so can be sent to prison.</p>
 
@@ -66,7 +66,9 @@ I can buy 200 DAI which I borrowed before in the market for just $180 and pay ba
   <li>Maker does not lend more than the collateral it has - making it less risky.</li>
 </ol>
 
-<p>Now there is a lot more to DAI than what I explained in this article. People who are already familiar with DAI might complain that I never mention MKR token or explain how auctions work, etc, but that was not the intention of this article. I tried to simplify things so that it will be easier for you to form a mental model of how the Protocol Works. If you want to know more about Maker DAO and DAI check out the following links!</p>
+<p>Now there is a lot more to DAI than what I explained in this article. People who are already familiar with DAI might complain that I never mention MKR token or explain how auctions work, etc, but that was not the intention of this article. I tried to simplify things so that it will be easier for you to form a mental model of how the Protocol Works.</p>
+
+<p>If you want to know more about Maker DAO and DAI check out the following links! (Please note that DAO is Decentralised Autonomous Organisation and DAI is the name of the stable coin in this context)</p>
 
 <ul>
   <li><a href="https://docs.makerdao.com/">MakerDAO docs</a></li>
