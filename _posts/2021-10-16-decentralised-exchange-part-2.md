@@ -8,7 +8,7 @@ image: assets/images/decentralised-exchange-part-1.jpg
 
 In the previous article, we established that an exchange is a place where buyers meet sellers - and looking at the prices at which assets are bought and sold, we can decide the 'Market Price' (Price the market gives an asset as a result of demand and supply) of an asset. 
 
-Since we have to spend an entire article talking about centralized exchanges, let us talk about how decentralized exchange is different from centralized:
+Since we have to spent an entire article talking about centralized exchanges, let us talk about how decentralized exchange is different from centralized:
 1. Conventional exchanges are considered centralized because the rules of exchange are dictated and enforced by a government-appointed entity. The fact that UniSwap is a decentralized exchange does not mean that no entity governs the rules of operation. In UniSwap, all governance-related decisions are decided by the process of voting. 
 2. While conventional exchanges are only up for a specific time on weekdays, Decentralized exchanges like UniSwap are up and running 24/7. 
 3. Strictly speaking, the core function of UniSwap is not that of an <b>"exchange,"</b> but that of a Market Maker (we briefly spoke about Market Makers in the last article). While conventional exchanges follow the 'Order Book' style, decentralized exchanges like UniSwap use 'Automated Marker maker' or 'Constant Function Market Maker' - More about this later in this article. 
@@ -30,7 +30,7 @@ Constant Function Market Makers are the Market Makers who use a mathematical fun
 
 Now that we have got those definitions out of the way, let us talk about how UniSwap works. UniSwap uses mathematics to determine how to swap tokens. 
 
-Now, we want to use mathematics to determine the prices for the exchange of tokens, to make sure that the basic supply-demand rules of economics stand - instead of a centralized entity determining the price based on the amount of buy or sell orders it gets, we will determine the price using maths. So if we have a Liquidity Pool of two tokens where one token is in high demand compared to another, we want the traders to pay a high price for the token in high demand. 
+Now, we want to make sure that the basic supply-demand rules of economics stand - instead of a centralized entity determining the price based on the amount of buy or sell orders it gets, we will determine the price using maths. So if we have a Liquidity Pool of two tokens where one token is in high demand compared to another, we want the traders to pay a high price for the token in high demand. 
 
 For the rest of this article, we shall try and explain the mathematics behind the swaps - 
 
