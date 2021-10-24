@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Decentralised Exchange : Part 2 Uniswap"
+title:  "Decentralised Exchange Part 2: Uniswap"
 author: surya
 categories: [ Advanced ]
 image: assets/images/decentralised-exchange-part-1.jpg

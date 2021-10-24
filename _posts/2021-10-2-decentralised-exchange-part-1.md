@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Decentralised Exchange : Part 1 Centralised Exchanges"
+title:  "Decentralised Exchange Part 1: Centralised Exchanges"
 author: surya
 categories: [ Advanced ]
 image: assets/images/decentralised-exchange-part-1.jpg
