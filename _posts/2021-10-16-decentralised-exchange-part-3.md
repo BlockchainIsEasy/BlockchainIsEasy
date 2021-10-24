@@ -86,7 +86,7 @@ We started with a product of <b>50,000</b> and now we have <b>51,401.845</b> - t
 
 The above function more or less behaves like the hyperbolic curve `X * Y = K` but with extra considerations for changes in values of X and Y and transaction fees. This means, as the demand for one token in the pool, say A, increases, the number of tokens of B required to swap one token of A (or the price of A relative to that of B) increases.
 
-We did a lot of math, but that is, in general, how a constant function market maker works. There are different variations of what we explained, like Market Makers, which use other functions or charge different transaction fees, but the underlying logic is more or less the same. 
+We did a lot of math, but that is, in general, how a constant function market maker works. There are different variations of what we explained, like Market Makers which use other functions or charge different transaction fees, but the underlying logic is more or less the same. 
 
 If you want to explore more on this topic, please check out this [paper](https://web.stanford.edu/~guillean/papers/constant_function_amms.pdf). The main focus of this paper is the improvement of Oracles, but it gives us a good idea of how Constant Function Market Makers work mathematically.
 
