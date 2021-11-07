@@ -1,4 +1,4 @@
-I"Â<p>In our last article, we spoke about how decentralized exchanges like UniSwap can use a mathematical function to provide liquidity - these functions are called Constant Function Market Makers of CFMMs. In this article, we will talk about the Constant Product Market Maker function in depth. But before we get started, here is some context -</p>
+I"Á<p>In our last article, we spoke about how decentralized exchanges like UniSwap can use a mathematical function to provide liquidity - these functions are called Constant Function Market Makers of CFMMs. In this article, we will talk about the Constant Product Market Maker function in depth. But before we get started, here is some context -</p>
 
 <p>We want a program/robot/machine to provide liquidity (buy or sell whenever we want) in a market. We have a bucket that contains two different Tokens - A and B. In a market, there are a lot of tokens (or assets) but we can segregate all tokens into pairs of two and create buckets for them. We call these buckets Liquidity Pools. We want the program to automatically give a certain number of B tokens to a person who provides a certain number of A tokens to the bucket and vice versa.</p>
 
@@ -85,7 +85,7 @@ The product of the number of tokens of A and B after the transaction now be = <c
 
 <p>The above function more or less behaves like the hyperbolic curve <code class="language-plaintext highlighter-rouge">X * Y = K</code> but with extra considerations for changes in values of X and Y and transaction fees. This means, as the demand for one token in the pool, say A, increases, the number of tokens of B required to swap one token of A (or the price of A relative to that of B) increases.</p>
 
-<p>We did a lot of math, but that is, in general, how a constant function market maker works. There are different variations of what we explained, like Market Makers, which use other functions or charge different transaction fees, but the underlying logic is more or less the same.</p>
+<p>We did a lot of math, but that is, in general, how a constant function market maker works. There are different variations of what we explained, like Market Makers which use other functions or charge different transaction fees, but the underlying logic is more or less the same.</p>
 
 <p>If you want to explore more on this topic, please check out this <a href="https://web.stanford.edu/~guillean/papers/constant_function_amms.pdf">paper</a>. The main focus of this paper is the improvement of Oracles, but it gives us a good idea of how Constant Function Market Makers work mathematically.</p>
 
