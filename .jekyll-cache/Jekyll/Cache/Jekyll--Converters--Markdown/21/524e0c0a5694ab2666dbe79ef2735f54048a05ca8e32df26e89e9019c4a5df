@@ -1,7 +1,7 @@
-I"�!<p>We’ve come a long way in this decentralized world. But let’s spend a couple of minutes talking about why we even have Blockchains in our current time.</p>
+I"�!<p>We’ve come a long way in this decentralized world. But let’s spend a couple of minutes talking about why we even have Blockchains in our current time.</p>
 
 <h2>Trust</h2>
-<p>For quite some time now, we have trusted many third parties with our information without realizing it. We’ve been trusting Facebook to hold our information personal and not sell it to make profits. We’ve been trusting banks with our money, hoping they give us a decent interest rate of return, hoping that our money will stay safe with them. The list goes on. In various aspects of life, we have lent our personal information to third parties only to trust that they will not misuse it. The great recession around 2007-2009 left a group of anonymous coders/developers giving the world a solution to the various issues that centralized institutions have. Bitcoin became the very first working model of a decentralized financial system. Anyone could join this network, and the rules of this institution remained hardcoded. No one could tamper with them. Trust no longer had to be placed on a person or group of people running a company. Instead, people could now put their trust in software that runs on a set of rules regardless of external circumstances. This software is now called Blockchain!</p>
+<p>For quite some time now, we have <b>trusted</b> many third parties with our information without realizing it. We’ve been <b>trusting</b> Facebook to hold our information personal and not sell it to make profits. We’ve been <b>trusting</b> banks with our money, hoping they give us a decent interest rate of return, hoping that our money will stay safe with them. The list goes on. In various aspects of life, we have lent our personal information to third parties only to trust that they will not misuse it. The great recession around 2007-2009 left a group of anonymous coders/developers giving the world a solution to the various issues that centralized institutions have. Bitcoin became the very first working model of a decentralized financial system. Anyone could join this network, and the rules of this institution remained hardcoded. No one could tamper with them. Trust no longer had to be placed on a person or group of people running a company. Instead, people could now put their trust in software that runs on a set of rules regardless of external circumstances. This software is now called Blockchain!</p>
 
 <h2>What do we still trust now?</h2>
 <p>In the current day and age, we have countless Blockchains. In our previous articles, we introduced Ethereum and, mainly, Ethereum smart contracts. Ethereum smart contracts allowed us to program rules that run when certain conditions are met, regardless of what happens(You can read more about smart contracts <a href="https://blockchainiseasy.github.io/smart-contracts/">here</a>). Let’s say we have a smart contract that runs a betting game. Let the game be on the outcome of a particular sporting event, let’s say football. Participants A and B bet on the result of a football game played between Manchester United and Chelsea. A bets on Manchester whereas B bets on Chelsea. Both A and B deposit one Ether into a smart contract that automatically transfers the total amount to the winner based on the result of the match. This agreement seems pretty straightforward!</p>
@@ -52,11 +52,11 @@ This issue is a pretty big concern in Blockchain.</p>
 
 <ol>
   <li><a href="https://setzeus.medium.com/blockchain-oracles-af3b216bed6b">Blockchain Oracles</a></li>
-  <li><a href="https://medium.com/@teexofficial/what-are-oracles-smart-contracts-the-oracle-problem-911f16821b53">What are Oracles. The Oracle Problem</a></li>
+  <li><a href="https://medium.com/@teexofficial/what-are-oracles-smart-contracts-the-oracle-problem-911f16821b53">What are Oracles? The Oracle Problem</a></li>
   <li><a href="https://medium.com/fabric-ventures/decentralised-oracles-a-comprehensive-overview-d3168b9a8841">Decentralised Oracles</a></li>
   <li><a href="https://101blockchains.com/blockchain-oracles/">Blockchain Oracles fundamentals</a></li>
   <li><a href="https://cryptozombies.io/en/lesson/14/chapter/1">Building an Oracle</a></li>
   <li><a href="https://www.gemini.com/cryptopedia/what-is-chainlink-and-how-does-it-work">Chainlink Oracles. What is Chainlink?</a></li>
-  <li><a href="https://chain.link/education/blockchain-oracles">What is a Blockchain Oracle</a></li>
+  <li><a href="https://chain.link/education/blockchain-oracles">What is a Blockchain Oracle?</a></li>
 </ol>
 :ET
