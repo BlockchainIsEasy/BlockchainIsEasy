@@ -19,7 +19,7 @@ Before we can understand blockchain, there are a few important concepts which ar
 
 * [Digital Signatures](https://blockchainiseasy.github.io/digital-signature/)
 * [Proof of work](https://blockchainiseasy.github.io/proof-of-work/)
-* [Distributed Ledger](https://blockchainiseasy.github.io/digital-ledger/)
+* [Distributed Ledger](https://blockchainiseasy.github.io/distributed-ledger/)
 
 And then, putting it all together,
 * [The Bitcoin BlockChain](https://blockchainiseasy.github.io/the-bitcoin-blockchain/)
