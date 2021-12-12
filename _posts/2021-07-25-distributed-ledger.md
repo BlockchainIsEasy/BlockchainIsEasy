@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Digital Ledger"
+title:  "Distributed Ledger"
 author: surya 
 categories: [ Basics ]
 image: assets/images/article-4.jpg
