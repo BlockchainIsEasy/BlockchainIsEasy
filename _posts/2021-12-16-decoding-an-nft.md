@@ -65,7 +65,7 @@ Now, what is this ownerOf helper?
 
 This helper function returns the address of the artist that uploaded the cube! As an artist participating in the blockchain network, you will have your wallet(as shown above) with an address linked to you. To upload your cube into the Smart Contract, in this case, the bucket, you will need to call the Create helper and sign that transaction with your address. The code will now map that number returned to you to your address.
 
-And now, since no one cannot alter the code once deployed(as we've mentioned a million times by now), you can display to the entire world your piece of art with soundproof evidence that you are the owner of this.
+And now, since no one can alter the code once deployed(as we've mentioned a million times by now), you can display to the entire world your piece of art with soundproof evidence that you are the owner of this.
 
 All this, in a nutshell, is an NFT. You are uploading your piece of art with your address linked to prove to the world that you were the creator. 
 
