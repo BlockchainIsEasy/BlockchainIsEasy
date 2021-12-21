@@ -3,7 +3,7 @@ layout: post
 title:  "Bitcoin Series : Introduction to Blockchain"
 author: surya
 categories: [ Introduction ]
-image: assets/images/.2.jpg
+image: assets/images/2.jpg
 featured: true
 ---
 
