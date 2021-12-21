@@ -3,7 +3,7 @@ layout: post
 title:  "Introduction to DeFi"
 author: surya
 categories: [ Introduction ]
-image: assets/images/2.jpg
+image: assets/images/introduction-to-defi.jpg
 featured: true
 ---
 
