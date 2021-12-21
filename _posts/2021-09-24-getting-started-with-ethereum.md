@@ -4,6 +4,7 @@ title:  "Getting Started with Ethereum"
 author: surya
 categories: [ Advanced ]
 image: assets/images/intro-to-eth.jpeg
+featured: true
 ---
 
 One of the major selling points of Bitcoin when it was launched, apart from the fact that it was completely decentralized, was that it is <u>Programmable Money</u>. I can create a transaction in the Bitcoin network to pay someone at a point in time in the future and it will be executed without fail. But the level of programming we can do in the Bitcoin network is limited.
@@ -19,5 +20,21 @@ The DAO was created in May 2016. A few members of the Ethereum community announc
 The DAO was an unexpected success and it was able to raise 12.7M ether - around $150 million at that time ( and it is a whopping $40 billion at the time this article is being written ). This was the largest crowdfunding campaign in history. I wish I could stop the story here and say “Yeap, that is all, happy ending” but I am afraid it is not. A hacker found a vulnerability in the code of The DAO and stole 3.6 million Ethereum - approximately $70 million at that time ( $11 billion at the time of writing ) from The DAO.
 
 And this, my dear friends, <b>might</b> be one of the reasons why the Bitcoin blockchain was not made Turing complete. But just because The DAO was a failure does not mean Ethereum is not safe. That is like hiring a web developer to build a website for you in python and blaming python when the website gets hacked. It's not python’s fault guys, it's the web developers. However, the takeaway from this story is that, when money is involved, people have to be extra careful while writing code and completely understand what they are working on. This also happens to be the motivation for starting this series of blog articles on how the Ethereum blockchain works. Since we already wrote a series on the Bitcoin blockchain, and most of the core blockchain concepts are the same for Ethereum and Bitcoin, we shall start from where we left in the Bitcoin series. Check out our series on [Bitcoin blockchain here](https://blockchainiseasy.github.io/about-blockchain-is-easy/).
+
+There is a long way to go before we complete understand ethereum blockchain completely, but we think the best place to get started is 
+
+* [Smart Contracts](https://blockchainiseasy.github.io/smart-contracts/)
+
+One of the most improtant features of ethereum blockchain is to be able to obtain data from outside the blockchain network. This can be achieved using 
+
+* [Oracles](https://blockchainiseasy.github.io/oracles/)
+
+I think its time we dive deeper into ethereum and understand
+
+* [Node and Web3](https://blockchainiseasy.github.io/Web3-and-node/)
+
+Now, we are ready to understand what all the fuss is about NFTs
+
+* [Decoding an NFT](https://blockchainiseasy.github.io/decoding-an-nft/)
 
 If you want to read more about <b>The DAO</b>, check out this [article](https://medium.com/swlh/the-story-of-the-dao-its-history-and-consequences-71e6a8a551ee). 

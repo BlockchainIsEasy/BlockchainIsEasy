@@ -1,13 +1,15 @@
 ---
 layout: post
-title:  "About BlockchainIsEasy"
+title:  "Bitcoin Series : Introduction to Blockchain"
 author: surya
 categories: [ Introduction ]
-image: assets/images/2.jpg
+image: assets/images/introduction-to-defi.jpg
 featured: true
 ---
 
-This blog is for all those people out there who want to understand blockchain but just cannot wrap their head around the concepts or don't find the time to learn them. We tried to make sure every article is very easy to read and gave priority to understanding the concepts more than the technical jargon and specifics. Our goal was to create a blog where people can read articles at the end of a hectic day at work or college and still be able to relax and learn. Enjoy! 
+The creation of Bitcoin in 2009 by Satoshi Nakamoto and its subsequent increase in price encouraged a lot of people to invest in crypto currency in hopes to become rich. But before investing in any crypto currency, it would be wise to understand the basic tenets of the underlying technology - Blockchain.
+
+In this series, we will talk about the basics of blockchain using bitcoin as our reference.
 
 ---
 
