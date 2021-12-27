@@ -23,3 +23,7 @@ If you are interested in finance, you are probably familiar with the stock excha
 * [Part 1 : Centralised Exchanges](https://blockchainiseasy.github.io/decentralised-exchange-part-1/)
 * [Part 2 : UniSwap](https://blockchainiseasy.github.io/decentralised-exchange-part-2/)
 * [Part 3 : The Constant Product Market Maker Function](https://blockchainiseasy.github.io/decentralised-exchange-part-3/)
+
+The founding pillar of world's financial systems is the concept of borrowing and lending. We will explore how we can borrow and lend in a decentralised way using Aave : 
+
+* [Decentralised Borrowing and Lending : Aave](https://blockchainiseasy.github.io/aave/)
