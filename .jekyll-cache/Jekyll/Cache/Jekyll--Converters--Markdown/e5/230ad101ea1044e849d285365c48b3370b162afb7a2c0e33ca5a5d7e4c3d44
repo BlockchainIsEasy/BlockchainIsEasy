@@ -1,4 +1,4 @@
-I"	<p>Today we shall talk about the most important aspect of finance - Borrowing and Lending. When banks normally set interest rates for the funds deposited with or borrowed from them, it depends on various macroeconomic and competitive factors. But the bottom line is, at the end of the day, the bank is the ‘central’ authority which determines the interest rates for its deposits and loans. 
+I"�<p>Today we shall talk about the most important aspect of finance - Borrowing and Lending. When banks normally set interest rates for the funds deposited with or borrowed from them, it depends on various macroeconomic and competitive factors. But the bottom line is, at the end of the day, the bank is the ‘central’ authority which determines the interest rates for its deposits and loans. 
 Now if you want to buy a Tesla, and you cannot afford to pay the whole amount at once (for the sake of this article let us assume Tesla costs $48,000), you can go to a bank, give a downpayment of $10,000 and borrow $38000. Ofcourse, the bank will not give you the $38,000 for free - until you pay back the $38,000 with interest to the bank, the bank is entitled to the car. If you are not able to pay back $38,000 + interest, the bank can take away your car. In this case, the car is your ‘collateral’.</p>
 
 <p><img src="https://blockchainiseasy.in/assets/images/aave-2.png" alt="Aave-1" /></p>
@@ -8,7 +8,7 @@ If you have been following our article series closely, you will realise that Dec
 
 <hr />
 
-<p><b> User’s Perspective on Borrowing from Aave  - <b></b></b></p>
+<p><b> User’s Perspective on Borrowing from Aave  - </b></p>
 
 <p>In Aave, to protect the assets deposited by lenders, the loans are always Overcollateralized. What does this mean? In the above case you gave the bank $10,000 to borrow $38,000 - and if you default, the bank can take away your car. But in the case of Aave, there is no central authority. Nobody can take away your car. So you have to pay more than $38,000 to borrow $38,000.</p>
 
@@ -31,7 +31,7 @@ Loan-to-Value Ratio (LTV) is decided by Aave. If LTV is 80%, you cannot borrow m
 
 <hr />
 
-<p><b>User’s Perspective on Lending from Aave - <b></b></b></p>
+<p><b>User’s Perspective on Lending from Aave - </b></p>
 
 <p>Lending is simpler. If you have 15 Ether, you can deposit them in Aave Protocol and you will be paid interest rate until you withdraw your 15 Ether. As simple as that.</p>
 
@@ -41,7 +41,7 @@ Loan-to-Value Ratio (LTV) is decided by Aave. If LTV is 80%, you cannot borrow m
 
 <hr />
 
-<p><b>Flash Loans : <b></b></b></p>
+<p><b>Flash Loans : </b></p>
 
 <p>Any discussion about Aave would be incomplete without flash loans. Flash loans are a peek into the endless possibilities of Blockchain in Decentralised Finance. They are the loans which are borrowed and paid back within the same block in the blockchain without collateral. The interest rates for flash loans is also pretty low, around 0.09%.</p>
 
