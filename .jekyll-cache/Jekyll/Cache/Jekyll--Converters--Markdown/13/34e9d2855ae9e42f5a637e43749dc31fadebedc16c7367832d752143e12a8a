@@ -1,0 +1,55 @@
+I"	<p>Today we shall talk about the most important aspect of finance - Borrowing and Lending. When banks normally set interest rates for the funds deposited with or borrowed from them, it depends on various macroeconomic and competitive factors. But the bottom line is, at the end of the day, the bank is the ‘central’ authority which determines the interest rates for its deposits and loans. 
+Now if you want to buy a Tesla, and you cannot afford to pay the whole amount at once (for the sake of this article let us assume Tesla costs $48,000), you can go to a bank, give a downpayment of $10,000 and borrow $38000. Ofcourse, the bank will not give you the $38,000 for free - until you pay back the $38,000 with interest to the bank, the bank is entitled to the car. If you are not able to pay back $38,000 + interest, the bank can take away your car. In this case, the car is your ‘collateral’.</p>
+
+<p><img src="https://blockchainiseasy.in/assets/images/aave-2.png" alt="Aave-1" /></p>
+
+<p>Now in this case, the bank is a central authority - it can determine the amount of interest to be charged for your car, it can come and take your car away if you do not repay your loan. How will you do this without a central authority?
+If you have been following our article series closely, you will realise that Decentralised Finance tends to replace a central authority which makes decisions with a mathematical function which has to satisfy a few conditions. Aave does something similar.</p>
+
+<hr />
+
+<p><b> User’s Perspective on Borrowing from Aave  - <b></b></b></p>
+
+<p>In Aave, to protect the assets deposited by lenders, the loans are always Overcollateralized. What does this mean? In the above case you gave the bank $10,000 to borrow $38,000 - and if you default, the bank can take away your car. But in the case of Aave, there is no central authority. Nobody can take away your car. So you have to pay more than $38,000 to borrow $38,000.</p>
+
+<p>Now any person in his right state of mind would think this does not make any sense, but give me a few seconds to explain -</p>
+
+<p>Imagine you want to buy a Tesla and you have 15 Ether during the time of writing this article, the value of 1 Ether is $4,000. So in order to buy Tesla, you sold 12 Ether(still assuming the price of Tesla is $48,000) and tomorrow, the value of Ether increased to $6000. Pretty bad timing huh?</p>
+
+<p>Instead of selling, you can deposit your 15 Ether as collateral and borrow $48,000. The current value of Ether you deposited as a collateral is $60,000 and you got $48,000 as a loan. Once you earn more money, you can pay off the $48,000 + interest and get back your 15 Ether and if the value of Ether increased to $6,000, good for you!</p>
+
+<p>In the above case, Your Loan-to-Value ratio - the ratio of loan you borrowed to the collateral you deposited will be 0.8 or 80%</p>
+
+<p>Loan-to-Value Ratio = Borrowed Value / Value of Collateral Deposited
+Loan-to-Value Ratio (LTV) is decided by Aave. If LTV is 80%, you cannot borrow more than 80% of the value of the collateral you deposited.</p>
+
+<p>Just like ether can increase from $4,000 to $6,000 it can also fall to $1,000. Say, after you deposited 15 Ether as collateral, the price of ether fell to $1,000 before you paid your loan, the value of the collateral you gave Aave will be $15,000 and the amount you borrowed as the loan will be $40,000 - it does not make sense for you to pay back the loan. You can just default and let Aave keep the 15 Ether - you got the better end of the deal anyway. But in this scenario, the Aave protocol faces a huge loss. To prevent such defaults, Aave has something called the Liquidity Threshold which is usually greater than LTV. If the value of your collateral falls below the Liquidity Threshold, it is sold off at the Borrowed Value.</p>
+
+<p>For example, in the above case, you borrowed $48,000 with 15 Ether worth $60,000 as collateral and the Liquidation threshold is 85%. So if the value of Ether falls below $3,400 the total value of the collateral becomes less than $51,000 which is less than 85% of $60,000 - Your 15 Ether is sold off to willing buyers on the blockchain network at a total amount of $48,000 which is $2666.67 for 1 Ether. Since the market value of Ether is $3,400 lots of buyers will be interested and you don’t have to pay your loan anymore  - but you will not get your 15 Ether back either.</p>
+
+<p>Now what the example we gave above is a very simple explanation. Aave keeps track of something called the ‘Health factor’ for a loan to decide when it can be liquidated. If you want to dive deeper, please check out Aave V1’s whitepaper. But our example above works pretty well if you just want a high level understanding of how the Aave works.</p>
+
+<hr />
+
+<p><b>User’s Perspective on Lending from Aave - <b></b></b></p>
+
+<p>Lending is simpler. If you have 15 Ether, you can deposit them in Aave Protocol and you will be paid interest rate until you withdraw your 15 Ether. As simple as that.</p>
+
+<p>At the beginning of this article, I mentioned that in a conventional bank, the interest rates for borrowing and lending are determined by the bank itself based on a lot of macroeconomic and competitive factors. Since Aave is decentralized, how does the protocol determine interest rates?</p>
+
+<p>In Aave, borrowing and lending are done using Lending Pool. Anyone who wants to lend money in aave should deposit their assets in a ‘Liquidity Pool’. The interest rates in aave, like most interest rates in decentralised finance are determined mathematically. Now we do not want to go deep into the mathematics of calculating interest rates in this article, but it would suffice to know that interest rates are determined based on the capital present in the liquidity pool. When a lot of capital is available in the liquidity pool, the interest rates are low to encourage borrowing and vice versa.</p>
+
+<hr />
+
+<p><b>Flash Loans : <b></b></b></p>
+
+<p>Any discussion about Aave would be incomplete without flash loans. Flash loans are a peek into the endless possibilities of Blockchain in Decentralised Finance. They are the loans which are borrowed and paid back within the same block in the blockchain without collateral. The interest rates for flash loans is also pretty low, around 0.09%.</p>
+
+<p>Now taking a step back, why would anyone want to borrow and return money in the same block transaction? Isn’t the point of borrowing to get a lump sum of money to pay it back in the future since you don’t have it for immediate use? Turns out, Flash loans won’t work for traditional borrowing but they have various other applications.</p>
+
+<p>One of the applications of flash loans is arbitrage. Now Imagine the price of ether in an exchange X is $2000 and the price of ethereum in another exchange Y is $2002. I can borrow 100 ether from a flash loan, immediately sell $2,00,200 worth ether in exchange Y and buy the same ether at 2,00,000 from exchange X and pay back the loan. These series of transactions take a few seconds to finish and I can make $200 without any collateral by exploiting the price difference between two exchanges which might exist due to supply demand mismatch. Such arbitrage opportunities do not arise often and are almost non-existent in efficient markets. Another way of looking at it is, arbitrage makes markets more efficient because we are selling on an exchange where the price is higher, thereby increasing the supply of assets on that exchange and buying on the exchange where the price is low - thereby bringing the prices on the exchanges closer.</p>
+
+<p><img src="https://blockchainiseasy.in/assets/images/aave-1.png" alt="Aave-2" /></p>
+
+<p>Now we have come to the end of this article, but there are a lot of things unexplored in Aave protocol and in the world of decentralised borrowing and lending. If you are interested in reading more, do check out Aave’s documentation.</p>
+:ET

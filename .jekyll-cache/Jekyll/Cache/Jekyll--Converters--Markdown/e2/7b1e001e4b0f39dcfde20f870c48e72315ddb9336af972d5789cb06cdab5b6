@@ -1,0 +1,48 @@
+I"�<p>Throughout our series so far, we have represented the blocks in blockchain as a bunch of transactions like <u>Alice paid Bob 5000 bucks</u>. It’s time we take a deeper look at how blocks are organized in the blockchain.</p>
+
+<p>You have to be familiar with the data structure - Merkel Trees, to be able to completely understand this article. Merkel Trees are used to summarise the transactions in a block to reduce the time taken to verify whether a transaction belongs to a block or not. We will not be explaining Merkel trees in this article and if you don’t know Merkel trees you can just ignore the couple of instances where they come up in this article and still have a decent understanding of how a block is structured in the blockchain. There are several videos and articles about Merkel Trees on youtube - too many to choose from, so I will just attach the Wikipedia link <a href="https://en.wikipedia.org/wiki/Merkle_tree">here</a>.</p>
+
+<p>Coming back to blocks, by now you might have probably realized that blocks in the blockchain are not just a bunch of transactions.</p>
+
+<p>Each block contains the following fields -</p>
+
+<ol>
+  <li><b>Block Size</b> -  The size of the block in bytes</li>
+  <li><b>Block Header</b> - This field stores information about the contents of the block</li>
+  <li><b>Transaction Counter</b> -  Number of transactions in the block</li>
+  <li><b>Transactions</b> - The blockchain transactions which we want to record in the block</li>
+</ol>
+
+<p><u><b>Block Header:</b></u></p>
+
+<p>Block Header is a crucial part of the block which contains the following information:</p>
+
+<ul>
+  <li>Previous Block Hash - This is a reference to the hash of the previous block in the chain (also called parent block)</li>
+  <li>Merkle Root - The root node of the Merkel tree which summarises all the transactions in the block</li>
+  <li>Timestamp - time at which this block was created</li>
+  <li>Proof of Work Target - The number of zeroes we need in front of the block hash for the block to pass the proof of work test.</li>
+  <li>Nonce - is a number that is changed until we get the required Proof of work target in the block hash.</li>
+  <li>(Please refer to our article on Proof of Work in case you don’t know what it is. The nonce is similar to ‘count’ in our Proof of Work article)</li>
+</ul>
+
+<p><u><b>Block Hash:</b></u></p>
+
+<p>Block Hash is the hash of the Block Header (not the entire block). We need Block Hash for three purposes -</p>
+
+<ul>
+  <li>To identify the block. Each block is identified by its Block Hash.</li>
+  <li>To verify Proof of Work - A block is considered valid only if the number of zeroes at the beginning of the block hash is greater than or equal to the Proof of Work Target.</li>
+  <li>To connect Blocks - Each Block header has ‘Previous Block Hash’ which is the Block Hash of its parent block and subsequent child block which are created from the current block will have the Block Hash of the current block in its header.</li>
+</ul>
+
+<p><img src="https://blockchainiseasy.in/assets/images/Blocks_1.png" alt="blocks-1" /></p>
+
+<p>So this is how it works:</p>
+
+<p>Once a transaction is valid and is broadcasted to the network, a miner will collect all such transactions and add them to this block. In addition to the transactions, he will create a Merkel tree to summarise, traverse and verify the transactions of the block easily. Once he has all this and all the information required for the Block Header, he will keep changing the nonce and calculate the Block Hash until the Proof of work target is satisfied. Once the target is satisfied by a particular nonce, this block will be published to the rest of the network.
+Notice how we never added the Block’s Hash to its header?
+This is because, once the new block is published by a miner, all the nodes (users, say) in the blockchain will look at the header, hash it and generate the Block Hash. If the Block Hash has valid proof of work, the block is considered legitimate and the nodes add this block to their existing chain and broadcast the block. And thus the new block propagates in the chain.</p>
+
+<p><img src="https://blockchainiseasy.in/assets/images/Blocks_2.png" alt="blocks-2" /></p>
+:ET
