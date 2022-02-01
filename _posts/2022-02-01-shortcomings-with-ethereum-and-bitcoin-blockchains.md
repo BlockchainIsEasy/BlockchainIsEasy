@@ -3,7 +3,7 @@ layout: post
 title: "Shortcomings with Ethereum and Bitcoin Blockchains"
 author: surya
 categories: [Advanced]
-image: assets/images/aave-cover.jpg
+image: assets/images/shortcomings-cover.jpg
 ---
 
 After finishing my article series on Introduction to DeFi, I wanted to go invest some of my money in the infamous decentralized liquidity pools on ethereum blockchain to earn interest on my deposits. I wanted to invest $100 in a liquidity pool ( Yeap, I am poor ) and the transaction fee I was asked to pay for depositing this $100 was a mind boggling $300.
