@@ -38,13 +38,7 @@ Not just high transaction fees, but the ethereum blockchain network is suffering
 The basic requirement for a solution to solve a problem is for it to provide a better solution than whatever currently exists. So if crypto currencies like bitcoin or ethereum want to replace mainstream payments, they have to be at least as fast as the current centralized payment networks.
 VisaNet is a 50 year old electronic payments system that fares far better than the top two cryptocurrencies of the world. VisaNet is not decentralized.
 
-
-
-| Protocol |Number of transactions per second | Time for a transaction to complete |
-| ------- | -------- | --------- |
-| Bitcoin | ~5 | ~10 minutes |
-| Ethereum | ~25 | ~15 seconds |
-| VisaNet | ~70,000 | A few microseconds |
+![shortcomings-5]({{ site.baseurl }}/assets/images/shortcomings-5.png)
 
 Clearly, bitcoin and ethereum in their current state cannot compete with the existing mechanism for payments.
 
