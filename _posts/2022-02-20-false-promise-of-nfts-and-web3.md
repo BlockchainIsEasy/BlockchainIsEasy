@@ -26,7 +26,7 @@ Fiat currencies have value because they are backed by full sovereignty of a gove
 
 What gives NFTs value? You cannot use NFTs to generate value nor is their government backing for NFTs to make them a legal tender. Anyone can create them - therefore, they are not a good store of value - not even as good as cryptocurrencies like bitcoin and Ethereum. Using NFTs, anyone can prove who owns them and who created them. Is that feature good enough to value the digital picture of a monkey at a million dollars? I do not think so. You can probably use NFTs to prove someone owns a piece of land or a block of gold or even a piece of art - which will make NFTs more of a contract proving ownership than an asset to own and sell.
 
-Why Web3 might not bring the democratization of internet we expect :
+<b>Why Web3 might not bring the democratization of internet we expect :</b>
 
 It won’t be an exaggeration to say that the internet is now owned by a handful of corporations. With the advent of blockchain and its capacity to carry out transactions, people thought we could finally democratize the internet, moving the power which is centralized in the hands of those handful corporations to the users who use the internet. VCs rush to fund Decentralised Autonomous Organisations (DAOs) which are inherently democratic. Now let us take a step back and inspect the type of democracy these DAOs on blockchain have.
     
@@ -41,7 +41,7 @@ As you can see in the chart below, governance power in web3 organizations is con
 
 ![false-promise-2]({{ site.baseurl }}/assets/images/false-promise-2.png)
 
-Don't get me wrong
+<b>Don't get me wrong</b>
 
 While it is difficult to put a price on art, the market of art collectors and sellers has been a niche one till the advent of NFTs. Since art like paintings, music or digital art has been sold on the internet as NFTs, the market has expanded and more users from different parts of the world are able to buy such art. Artists who create music and digital art are able to directly sell their pieces to the users as NFTs. But one needs to ponder  whether one  is buying music for listening or selling it at a higher price because it is an NFT.
 
